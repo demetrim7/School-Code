@@ -1,0 +1,43 @@
+/* 
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: orange;
+} */
+
+/* h1 {
+    color: greenyellow;
+    background-color: blueviolet;
+} */
+
+body {
+    /* background-color: rgb(165, 72, 165) */
+    background-color: #1064eb;
+}
+
+h1 {
+    /* background-color: rgba(255
+, 255, 255, 0.4);
+*/
+
+background-color: hsl(254, 95%, 57%);
+color: hsla(434, 95%, 57%, 0.9);
+
+text-align: center;
+font-weight: lighter;
+
+font-size: 10vw
+
+}
+
+p {
+    font-weight: bold;
+    line-height: 3;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    text-indent: 50px;
+}
+
+
