@@ -1,0 +1,55 @@
+body {
+    /* To allow a difference in the color palate of the page  */
+    background:linear-gradient(to right, #6197ed, #0761f2); 
+    font-family: Trebuchet MS, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0505f5;
+    
+}
+
+h1 {
+    text-shadow: 3px 3px 3px #3667b5;
+    /* I wanted my name to be  more stylized */
+}
+
+h2 {
+    text-decoration: underline black;
+}
+
+h3 {
+    text-decoration: underline black;
+}
+
+section{
+    /* I wanted each section to stand out but not too strong */
+    background-color: rgba(139, 162, 199, 0.4);
+}
+
+input {
+    background-color: #deebff;
+    font-size: 0.75rem;
+}
+
+textarea {
+    background-color: #deebff;
+}
+
+button {
+    background-color: #deebff;
+}
+
+label {
+    font-size: 0.75rem;
+}
+  
+form {
+    text-align: center;
+}
