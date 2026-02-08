@@ -1,0 +1,129 @@
+body {
+    /* To allow a difference in the color palate of the page  */
+    background:linear-gradient(to right, #6197ed, #0761f2); 
+    font-family: Trebuchet MS, sans-serif;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0505f5;
+    
+}
+
+h1 {
+    text-shadow: 3px 3px 3px #3667b5;
+    /* I wanted my name to be  more stylized */
+}
+
+h2 {
+    text-decoration: underline black;
+}
+
+h3 {
+    text-decoration: underline black;
+}
+
+section{
+    /* I wanted each section to stand out but not too strong */
+    background-color: rgba(139, 162, 199, 0.4);
+}
+
+input {
+    background-color: #deebff;
+    font-size: 0.75rem;
+}
+
+textarea {
+    background-color: #deebff;
+}
+
+/* button needs adjusted more to the bottom right */
+button {
+    background-color: #deebff;
+    border: 1.5px solid #151540;
+    margin: 10px;
+    margin-left: 70%;
+}
+
+label {
+    font-size: 0.75rem;
+}
+  
+form {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 15%;
+}
+
+header {
+    padding: 25px;
+    border-bottom: 3px solid black;
+    min-width: 500px;
+}
+
+section {
+    border: 2px solid darkblue;
+    padding: 8px;
+    padding-left: 25px;
+    margin: 1em;
+    margin-left: 1.5em;
+    border-radius: 4%;
+    min-width: 500px;
+}
+
+/* wanted to space out my form to not feel cluttered */
+input {
+    margin: 5px;
+    border: 2px solid #151540;
+    outline: none;
+}
+
+textarea {
+    border: 2px solid #151540;
+    outline: none;
+}
+
+table {
+    padding: 15px;
+}
+
+
+.table {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 2px;
+    /* background-color: antiquewhite; */
+}
+
+.caption {
+    margin-bottom: 3px;
+    font-style: italic;
+}
+
+/* added two different classes so they each have their own border */
+#hardSkill, #softSkill {
+    border: 2px solid black;
+    padding-bottom: 15px;
+    margin-right: 70%;
+    min-width: 500px;
+}
+
+
+/* wanted to add more functionality with my email */
+#email {
+text-decoration: solid black underline;
+
+}
