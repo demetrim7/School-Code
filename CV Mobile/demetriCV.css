@@ -13,9 +13,15 @@ body {
 a {
     text-decoration: none;
     color: #0505f5;
+    transition: all 0.5s ease;  /*transition on contact links */
+
     
 }
 
+a:hover {
+    font-size: 1.25rem;
+    color: lightblue;
+}
 h1 {
     text-shadow: 3px 3px 3px #3667b5;
     /* I wanted my name to be  more stylized */
@@ -62,6 +68,13 @@ button {
     border: 1.5px solid #151540;
     margin: 10px;
     margin-left: 70%;
+    transition: all 0.5s ease;  /*transition on contact links */
+
+}
+
+button:hover {
+    border-radius: 40%;
+    background-color: #0761f2;
 }
 
 label {
@@ -142,23 +155,41 @@ table {
 }
 /* mobile version */
 @media (max-width: 600px) {
-    body {
-        margin: 0em;
-        margin-left: 0;
-    }
 
-    table {
-        width: 80%;
+    * {
+        display: flex-box;
+    }
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        border: none;
+        padding: 10px;
+        background-attachment: fixed;  /* To make the background image fixed and not scroll with the content */
+    }
+        
+    table, ul, .section{
+        width: 100%;
+        min-width: auto;
     }
 
     img {
         width: 150px;
     }
 
+    p{
+        font-size: 1rem;
+    }
+
     ul {
         box-sizing: border-box;
         padding: 0;
     }
+
+    header, section, #hardSkill, #softSkill {
+        min-width: auto;
+    }
+
+
     .links{
         font-size: 0.75rem;
         margin: .25em 0;
@@ -171,11 +202,13 @@ table {
     .header {
         grid-template-columns: 1fr;
         text-align: center;
+        min-width: auto;
     }
 
     .section {
-        width: 75%;
-        margin: 1em 1em;
+        width: 100%;
+        margin: 1em auto;
+        padding: 2em;
     }
 
     .links:hover {
