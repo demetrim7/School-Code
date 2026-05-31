@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a6e2f7, #bfe6f5);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    margin: 0 0 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin: 20px;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#memeContainer {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin: 20px;
+}
+
+.meme-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    background: #000;
+}
+
+.meme-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.meme-text { /* Added some meme styling for both top and bottom text */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    color: white;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+    padding: 8px 10px;
+}
+
+.meme-text.top {
+    top: 12px;
+}
+
+.meme-text.bottom {
+    bottom: 12px;
+}
+
+.delete-meme { /*Added some interactive styling to the delete button*/
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 0, 0, 0.95);
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.delete-meme:hover {
+    transform: translateY(-1px);
+    opacity: 0.9;
+}
+
